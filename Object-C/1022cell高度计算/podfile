@@ -1,0 +1,5 @@
+
+
+pod 'Masonry', '~> 0.6.2'
+
+pod 'UITableView+FDTemplateLayoutCell', '~> 1.3'

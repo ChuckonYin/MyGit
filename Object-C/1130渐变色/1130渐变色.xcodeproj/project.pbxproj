@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250D3FAC1C0D2F780093B076 /* UIImageGradientUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 250D3FAB1C0D2F780093B076 /* UIImageGradientUtils.m */; };
+		251AC1701C0C789B00A332DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 251AC16F1C0C789B00A332DD /* main.m */; };
+		251AC1731C0C789B00A332DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 251AC1721C0C789B00A332DD /* AppDelegate.m */; };
+		251AC1761C0C789B00A332DD /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251AC1751C0C789B00A332DD /* GradientViewController.m */; };
+		251AC1791C0C789B00A332DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251AC1771C0C789B00A332DD /* Main.storyboard */; };
+		251AC17B1C0C789B00A332DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251AC17A1C0C789B00A332DD /* Assets.xcassets */; };
+		251AC17E1C0C789B00A332DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251AC17C1C0C789B00A332DD /* LaunchScreen.storyboard */; };
+		251AC1891C0C789B00A332DD /* _130___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 251AC1881C0C789B00A332DD /* _130___Tests.m */; };
+		251AC1941C0C789B00A332DD /* _130___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 251AC1931C0C789B00A332DD /* _130___UITests.m */; };
+		251AC1A21C0C7D3E00A332DD /* 777.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 251AC1A11C0C7D3E00A332DD /* 777.jpg */; };
+		251AC1A51C0C8CE000A332DD /* ShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251AC1A41C0C8CE000A332DD /* ShapeViewController.m */; };
+		253F14B41C0CAADE00BBA912 /* ColorProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F14B31C0CAADE00BBA912 /* ColorProgressViewController.m */; };
+		253F14B71C0CAB1300BBA912 /* CYGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F14B61C0CAB1300BBA912 /* CYGradientProgress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		251AC1851C0C789B00A332DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 251AC1631C0C789B00A332DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251AC16A1C0C789B00A332DD;
+			remoteInfo = "1130渐变色";
+		};
+		251AC1901C0C789B00A332DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 251AC1631C0C789B00A332DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251AC16A1C0C789B00A332DD;
+			remoteInfo = "1130渐变色";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		250D3FAA1C0D2F780093B076 /* UIImageGradientUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageGradientUtils.h; sourceTree = "<group>"; };
+		250D3FAB1C0D2F780093B076 /* UIImageGradientUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageGradientUtils.m; sourceTree = "<group>"; };
+		251AC16B1C0C789B00A332DD /* 1130渐变色.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1130渐变色.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		251AC16F1C0C789B00A332DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		251AC1711C0C789B00A332DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		251AC1721C0C789B00A332DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		251AC1741C0C789B00A332DD /* GradientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		251AC1751C0C789B00A332DD /* GradientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+		251AC1781C0C789B00A332DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		251AC17A1C0C789B00A332DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		251AC17D1C0C789B00A332DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		251AC17F1C0C789B00A332DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251AC1841C0C789B00A332DD /* 1130渐变色Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1130渐变色Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		251AC1881C0C789B00A332DD /* _130___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_130___Tests.m"; sourceTree = "<group>"; };
+		251AC18A1C0C789B00A332DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251AC18F1C0C789B00A332DD /* 1130渐变色UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1130渐变色UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		251AC1931C0C789B00A332DD /* _130___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_130___UITests.m"; sourceTree = "<group>"; };
+		251AC1951C0C789B00A332DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251AC1A11C0C7D3E00A332DD /* 777.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 777.jpg; sourceTree = "<group>"; };
+		251AC1A31C0C8CE000A332DD /* ShapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeViewController.h; sourceTree = "<group>"; };
+		251AC1A41C0C8CE000A332DD /* ShapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeViewController.m; sourceTree = "<group>"; };
+		253F14B21C0CAADE00BBA912 /* ColorProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorProgressViewController.h; sourceTree = "<group>"; };
+		253F14B31C0CAADE00BBA912 /* ColorProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorProgressViewController.m; sourceTree = "<group>"; };
+		253F14B51C0CAB1300BBA912 /* CYGradientProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYGradientProgress.h; sourceTree = "<group>"; };
+		253F14B61C0CAB1300BBA912 /* CYGradientProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYGradientProgress.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		251AC1681C0C789B00A332DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251AC1811C0C789B00A332DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251AC18C1C0C789B00A332DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251AC1621C0C789B00A332DD = {
+			isa = PBXGroup;
+			children = (
+				251AC16D1C0C789B00A332DD /* 1130渐变色 */,
+				251AC1871C0C789B00A332DD /* 1130渐变色Tests */,
+				251AC1921C0C789B00A332DD /* 1130渐变色UITests */,
+				251AC16C1C0C789B00A332DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		251AC16C1C0C789B00A332DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				251AC16B1C0C789B00A332DD /* 1130渐变色.app */,
+				251AC1841C0C789B00A332DD /* 1130渐变色Tests.xctest */,
+				251AC18F1C0C789B00A332DD /* 1130渐变色UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		251AC16D1C0C789B00A332DD /* 1130渐变色 */ = {
+			isa = PBXGroup;
+			children = (
+				251AC1A11C0C7D3E00A332DD /* 777.jpg */,
+				251AC1711C0C789B00A332DD /* AppDelegate.h */,
+				251AC1721C0C789B00A332DD /* AppDelegate.m */,
+				251AC1741C0C789B00A332DD /* GradientViewController.h */,
+				251AC1751C0C789B00A332DD /* GradientViewController.m */,
+				251AC1A31C0C8CE000A332DD /* ShapeViewController.h */,
+				251AC1A41C0C8CE000A332DD /* ShapeViewController.m */,
+				253F14B21C0CAADE00BBA912 /* ColorProgressViewController.h */,
+				253F14B31C0CAADE00BBA912 /* ColorProgressViewController.m */,
+				253F14B51C0CAB1300BBA912 /* CYGradientProgress.h */,
+				253F14B61C0CAB1300BBA912 /* CYGradientProgress.m */,
+				250D3FAA1C0D2F780093B076 /* UIImageGradientUtils.h */,
+				250D3FAB1C0D2F780093B076 /* UIImageGradientUtils.m */,
+				251AC1771C0C789B00A332DD /* Main.storyboard */,
+				251AC17A1C0C789B00A332DD /* Assets.xcassets */,
+				251AC17C1C0C789B00A332DD /* LaunchScreen.storyboard */,
+				251AC17F1C0C789B00A332DD /* Info.plist */,
+				251AC16E1C0C789B00A332DD /* Supporting Files */,
+			);
+			path = "1130渐变色";
+			sourceTree = "<group>";
+		};
+		251AC16E1C0C789B00A332DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				251AC16F1C0C789B00A332DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		251AC1871C0C789B00A332DD /* 1130渐变色Tests */ = {
+			isa = PBXGroup;
+			children = (
+				251AC1881C0C789B00A332DD /* _130___Tests.m */,
+				251AC18A1C0C789B00A332DD /* Info.plist */,
+			);
+			path = "1130渐变色Tests";
+			sourceTree = "<group>";
+		};
+		251AC1921C0C789B00A332DD /* 1130渐变色UITests */ = {
+			isa = PBXGroup;
+			children = (
+				251AC1931C0C789B00A332DD /* _130___UITests.m */,
+				251AC1951C0C789B00A332DD /* Info.plist */,
+			);
+			path = "1130渐变色UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		251AC16A1C0C789B00A332DD /* 1130渐变色 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251AC1981C0C789B00A332DD /* Build configuration list for PBXNativeTarget "1130渐变色" */;
+			buildPhases = (
+				251AC1671C0C789B00A332DD /* Sources */,
+				251AC1681C0C789B00A332DD /* Frameworks */,
+				251AC1691C0C789B00A332DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1130渐变色";
+			productName = "1130渐变色";
+			productReference = 251AC16B1C0C789B00A332DD /* 1130渐变色.app */;
+			productType = "com.apple.product-type.application";
+		};
+		251AC1831C0C789B00A332DD /* 1130渐变色Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251AC19B1C0C789B00A332DD /* Build configuration list for PBXNativeTarget "1130渐变色Tests" */;
+			buildPhases = (
+				251AC1801C0C789B00A332DD /* Sources */,
+				251AC1811C0C789B00A332DD /* Frameworks */,
+				251AC1821C0C789B00A332DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				251AC1861C0C789B00A332DD /* PBXTargetDependency */,
+			);
+			name = "1130渐变色Tests";
+			productName = "1130渐变色Tests";
+			productReference = 251AC1841C0C789B00A332DD /* 1130渐变色Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		251AC18E1C0C789B00A332DD /* 1130渐变色UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251AC19E1C0C789B00A332DD /* Build configuration list for PBXNativeTarget "1130渐变色UITests" */;
+			buildPhases = (
+				251AC18B1C0C789B00A332DD /* Sources */,
+				251AC18C1C0C789B00A332DD /* Frameworks */,
+				251AC18D1C0C789B00A332DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				251AC1911C0C789B00A332DD /* PBXTargetDependency */,
+			);
+			name = "1130渐变色UITests";
+			productName = "1130渐变色UITests";
+			productReference = 251AC18F1C0C789B00A332DD /* 1130渐变色UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		251AC1631C0C789B00A332DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = PingAn;
+				TargetAttributes = {
+					251AC16A1C0C789B00A332DD = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = FS49R6JUN8;
+					};
+					251AC1831C0C789B00A332DD = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = FS49R6JUN8;
+						TestTargetID = 251AC16A1C0C789B00A332DD;
+					};
+					251AC18E1C0C789B00A332DD = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = FS49R6JUN8;
+						TestTargetID = 251AC16A1C0C789B00A332DD;
+					};
+				};
+			};
+			buildConfigurationList = 251AC1661C0C789B00A332DD /* Build configuration list for PBXProject "1130渐变色" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 251AC1621C0C789B00A332DD;
+			productRefGroup = 251AC16C1C0C789B00A332DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				251AC16A1C0C789B00A332DD /* 1130渐变色 */,
+				251AC1831C0C789B00A332DD /* 1130渐变色Tests */,
+				251AC18E1C0C789B00A332DD /* 1130渐变色UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		251AC1691C0C789B00A332DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251AC1A21C0C7D3E00A332DD /* 777.jpg in Resources */,
+				251AC17E1C0C789B00A332DD /* LaunchScreen.storyboard in Resources */,
+				251AC17B1C0C789B00A332DD /* Assets.xcassets in Resources */,
+				251AC1791C0C789B00A332DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251AC1821C0C789B00A332DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251AC18D1C0C789B00A332DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		251AC1671C0C789B00A332DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253F14B71C0CAB1300BBA912 /* CYGradientProgress.m in Sources */,
+				251AC1A51C0C8CE000A332DD /* ShapeViewController.m in Sources */,
+				250D3FAC1C0D2F780093B076 /* UIImageGradientUtils.m in Sources */,
+				251AC1761C0C789B00A332DD /* GradientViewController.m in Sources */,
+				251AC1731C0C789B00A332DD /* AppDelegate.m in Sources */,
+				253F14B41C0CAADE00BBA912 /* ColorProgressViewController.m in Sources */,
+				251AC1701C0C789B00A332DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251AC1801C0C789B00A332DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251AC1891C0C789B00A332DD /* _130___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251AC18B1C0C789B00A332DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251AC1941C0C789B00A332DD /* _130___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		251AC1861C0C789B00A332DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 251AC16A1C0C789B00A332DD /* 1130渐变色 */;
+			targetProxy = 251AC1851C0C789B00A332DD /* PBXContainerItemProxy */;
+		};
+		251AC1911C0C789B00A332DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 251AC16A1C0C789B00A332DD /* 1130渐变色 */;
+			targetProxy = 251AC1901C0C789B00A332DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		251AC1771C0C789B00A332DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				251AC1781C0C789B00A332DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		251AC17C1C0C789B00A332DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				251AC17D1C0C789B00A332DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		251AC1961C0C789B00A332DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		251AC1971C0C789B00A332DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		251AC1991C0C789B00A332DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1130渐变色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-130---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		251AC19A1C0C789B00A332DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "1130渐变色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-130---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		251AC19C1C0C789B00A332DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1130渐变色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-130---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1130渐变色.app/1130渐变色";
+			};
+			name = Debug;
+		};
+		251AC19D1C0C789B00A332DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "1130渐变色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-130---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1130渐变色.app/1130渐变色";
+			};
+			name = Release;
+		};
+		251AC19F1C0C789B00A332DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1130渐变色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-130---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1130渐变色";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		251AC1A01C0C789B00A332DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "1130渐变色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-130---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "1130渐变色";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		251AC1661C0C789B00A332DD /* Build configuration list for PBXProject "1130渐变色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251AC1961C0C789B00A332DD /* Debug */,
+				251AC1971C0C789B00A332DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		251AC1981C0C789B00A332DD /* Build configuration list for PBXNativeTarget "1130渐变色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251AC1991C0C789B00A332DD /* Debug */,
+				251AC19A1C0C789B00A332DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		251AC19B1C0C789B00A332DD /* Build configuration list for PBXNativeTarget "1130渐变色Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251AC19C1C0C789B00A332DD /* Debug */,
+				251AC19D1C0C789B00A332DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		251AC19E1C0C789B00A332DD /* Build configuration list for PBXNativeTarget "1130渐变色UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251AC19F1C0C789B00A332DD /* Debug */,
+				251AC1A01C0C789B00A332DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 251AC1631C0C789B00A332DD /* Project object */;
+}

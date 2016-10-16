@@ -1,0 +1,1 @@
+../../../Reveal/Classes/CLBeacon+RVLAdditions.h

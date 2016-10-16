@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251E85011BD5EA5800413811 /* CYCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 251E85001BD5EA5800413811 /* CYCell.m */; settings = {ASSET_TAGS = (); }; };
+		251E85031BD5EAF200413811 /* Star 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 251E85021BD5EAF200413811 /* Star 1.png */; settings = {ASSET_TAGS = (); }; };
+		251E854C1BD6471C00413811 /* LZGCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 251E854A1BD6471C00413811 /* LZGCell.m */; settings = {ASSET_TAGS = (); }; };
+		251E854D1BD6471C00413811 /* LZGCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 251E854B1BD6471C00413811 /* LZGCell.xib */; settings = {ASSET_TAGS = (); }; };
+		254024981BD5410400961457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 254024971BD5410400961457 /* main.m */; };
+		2540249B1BD5410400961457 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2540249A1BD5410400961457 /* AppDelegate.m */; };
+		2540249E1BD5410400961457 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2540249D1BD5410400961457 /* ViewController.m */; };
+		254024A11BD5410400961457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2540249F1BD5410400961457 /* Main.storyboard */; };
+		254024A31BD5410400961457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254024A21BD5410400961457 /* Assets.xcassets */; };
+		254024A61BD5410400961457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254024A41BD5410400961457 /* LaunchScreen.storyboard */; };
+		254024B11BD5410400961457 /* CYParabolaViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254024B01BD5410400961457 /* CYParabolaViewTests.m */; };
+		254024BC1BD5410400961457 /* CYParabolaViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254024BB1BD5410400961457 /* CYParabolaViewUITests.m */; };
+		254024CB1BD5412F00961457 /* CYParabolaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 254024CA1BD5412F00961457 /* CYParabolaView.m */; settings = {ASSET_TAGS = (); }; };
+		254F91291BDB787300F6290C /* MealManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F91281BDB787300F6290C /* MealManager.m */; settings = {ASSET_TAGS = (); }; };
+		254F912C1BDB7A9E00F6290C /* MealModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F912B1BDB7A9E00F6290C /* MealModel.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		254024AD1BD5410400961457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2540248B1BD5410400961457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254024921BD5410400961457;
+			remoteInfo = CYParabolaView;
+		};
+		254024B81BD5410400961457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2540248B1BD5410400961457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254024921BD5410400961457;
+			remoteInfo = CYParabolaView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		251E84FF1BD5EA5800413811 /* CYCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCell.h; sourceTree = "<group>"; };
+		251E85001BD5EA5800413811 /* CYCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCell.m; sourceTree = "<group>"; };
+		251E85021BD5EAF200413811 /* Star 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star 1.png"; sourceTree = "<group>"; };
+		251E85491BD6471C00413811 /* LZGCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZGCell.h; sourceTree = "<group>"; };
+		251E854A1BD6471C00413811 /* LZGCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZGCell.m; sourceTree = "<group>"; };
+		251E854B1BD6471C00413811 /* LZGCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZGCell.xib; sourceTree = "<group>"; };
+		254024931BD5410400961457 /* CYParabolaView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYParabolaView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		254024971BD5410400961457 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		254024991BD5410400961457 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2540249A1BD5410400961457 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2540249C1BD5410400961457 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2540249D1BD5410400961457 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		254024A01BD5410400961457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		254024A21BD5410400961457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		254024A51BD5410400961457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		254024A71BD5410400961457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254024AC1BD5410400961457 /* CYParabolaViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYParabolaViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254024B01BD5410400961457 /* CYParabolaViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYParabolaViewTests.m; sourceTree = "<group>"; };
+		254024B21BD5410400961457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254024B71BD5410400961457 /* CYParabolaViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYParabolaViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254024BB1BD5410400961457 /* CYParabolaViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYParabolaViewUITests.m; sourceTree = "<group>"; };
+		254024BD1BD5410400961457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254024C91BD5412F00961457 /* CYParabolaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYParabolaView.h; sourceTree = "<group>"; };
+		254024CA1BD5412F00961457 /* CYParabolaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYParabolaView.m; sourceTree = "<group>"; };
+		254F91271BDB787300F6290C /* MealManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealManager.h; sourceTree = "<group>"; };
+		254F91281BDB787300F6290C /* MealManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealManager.m; sourceTree = "<group>"; };
+		254F912A1BDB7A9E00F6290C /* MealModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealModel.h; sourceTree = "<group>"; };
+		254F912B1BDB7A9E00F6290C /* MealModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		254024901BD5410400961457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254024A91BD5410400961457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254024B41BD5410400961457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2540248A1BD5410400961457 = {
+			isa = PBXGroup;
+			children = (
+				254024951BD5410400961457 /* CYParabolaView */,
+				254024AF1BD5410400961457 /* CYParabolaViewTests */,
+				254024BA1BD5410400961457 /* CYParabolaViewUITests */,
+				254024941BD5410400961457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		254024941BD5410400961457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				254024931BD5410400961457 /* CYParabolaView.app */,
+				254024AC1BD5410400961457 /* CYParabolaViewTests.xctest */,
+				254024B71BD5410400961457 /* CYParabolaViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		254024951BD5410400961457 /* CYParabolaView */ = {
+			isa = PBXGroup;
+			children = (
+				251E85021BD5EAF200413811 /* Star 1.png */,
+				254024991BD5410400961457 /* AppDelegate.h */,
+				2540249A1BD5410400961457 /* AppDelegate.m */,
+				2540249C1BD5410400961457 /* ViewController.h */,
+				2540249D1BD5410400961457 /* ViewController.m */,
+				254F91271BDB787300F6290C /* MealManager.h */,
+				254F91281BDB787300F6290C /* MealManager.m */,
+				254F912A1BDB7A9E00F6290C /* MealModel.h */,
+				254F912B1BDB7A9E00F6290C /* MealModel.m */,
+				251E84FF1BD5EA5800413811 /* CYCell.h */,
+				251E85001BD5EA5800413811 /* CYCell.m */,
+				251E85491BD6471C00413811 /* LZGCell.h */,
+				251E854A1BD6471C00413811 /* LZGCell.m */,
+				251E854B1BD6471C00413811 /* LZGCell.xib */,
+				254024C91BD5412F00961457 /* CYParabolaView.h */,
+				254024CA1BD5412F00961457 /* CYParabolaView.m */,
+				2540249F1BD5410400961457 /* Main.storyboard */,
+				254024A21BD5410400961457 /* Assets.xcassets */,
+				254024A41BD5410400961457 /* LaunchScreen.storyboard */,
+				254024A71BD5410400961457 /* Info.plist */,
+				254024961BD5410400961457 /* Supporting Files */,
+			);
+			path = CYParabolaView;
+			sourceTree = "<group>";
+		};
+		254024961BD5410400961457 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				254024971BD5410400961457 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		254024AF1BD5410400961457 /* CYParabolaViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				254024B01BD5410400961457 /* CYParabolaViewTests.m */,
+				254024B21BD5410400961457 /* Info.plist */,
+			);
+			path = CYParabolaViewTests;
+			sourceTree = "<group>";
+		};
+		254024BA1BD5410400961457 /* CYParabolaViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				254024BB1BD5410400961457 /* CYParabolaViewUITests.m */,
+				254024BD1BD5410400961457 /* Info.plist */,
+			);
+			path = CYParabolaViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		254024921BD5410400961457 /* CYParabolaView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254024C01BD5410400961457 /* Build configuration list for PBXNativeTarget "CYParabolaView" */;
+			buildPhases = (
+				2540248F1BD5410400961457 /* Sources */,
+				254024901BD5410400961457 /* Frameworks */,
+				254024911BD5410400961457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYParabolaView;
+			productName = CYParabolaView;
+			productReference = 254024931BD5410400961457 /* CYParabolaView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		254024AB1BD5410400961457 /* CYParabolaViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254024C31BD5410400961457 /* Build configuration list for PBXNativeTarget "CYParabolaViewTests" */;
+			buildPhases = (
+				254024A81BD5410400961457 /* Sources */,
+				254024A91BD5410400961457 /* Frameworks */,
+				254024AA1BD5410400961457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254024AE1BD5410400961457 /* PBXTargetDependency */,
+			);
+			name = CYParabolaViewTests;
+			productName = CYParabolaViewTests;
+			productReference = 254024AC1BD5410400961457 /* CYParabolaViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		254024B61BD5410400961457 /* CYParabolaViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254024C61BD5410400961457 /* Build configuration list for PBXNativeTarget "CYParabolaViewUITests" */;
+			buildPhases = (
+				254024B31BD5410400961457 /* Sources */,
+				254024B41BD5410400961457 /* Frameworks */,
+				254024B51BD5410400961457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254024B91BD5410400961457 /* PBXTargetDependency */,
+			);
+			name = CYParabolaViewUITests;
+			productName = CYParabolaViewUITests;
+			productReference = 254024B71BD5410400961457 /* CYParabolaViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2540248B1BD5410400961457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = PingAn;
+				TargetAttributes = {
+					254024921BD5410400961457 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = FS49R6JUN8;
+					};
+					254024AB1BD5410400961457 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = FS49R6JUN8;
+						TestTargetID = 254024921BD5410400961457;
+					};
+					254024B61BD5410400961457 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = FS49R6JUN8;
+						TestTargetID = 254024921BD5410400961457;
+					};
+				};
+			};
+			buildConfigurationList = 2540248E1BD5410400961457 /* Build configuration list for PBXProject "CYParabolaView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2540248A1BD5410400961457;
+			productRefGroup = 254024941BD5410400961457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				254024921BD5410400961457 /* CYParabolaView */,
+				254024AB1BD5410400961457 /* CYParabolaViewTests */,
+				254024B61BD5410400961457 /* CYParabolaViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		254024911BD5410400961457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254024A61BD5410400961457 /* LaunchScreen.storyboard in Resources */,
+				251E85031BD5EAF200413811 /* Star 1.png in Resources */,
+				254024A31BD5410400961457 /* Assets.xcassets in Resources */,
+				251E854D1BD6471C00413811 /* LZGCell.xib in Resources */,
+				254024A11BD5410400961457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254024AA1BD5410400961457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254024B51BD5410400961457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2540248F1BD5410400961457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254024CB1BD5412F00961457 /* CYParabolaView.m in Sources */,
+				254F91291BDB787300F6290C /* MealManager.m in Sources */,
+				2540249E1BD5410400961457 /* ViewController.m in Sources */,
+				2540249B1BD5410400961457 /* AppDelegate.m in Sources */,
+				251E854C1BD6471C00413811 /* LZGCell.m in Sources */,
+				251E85011BD5EA5800413811 /* CYCell.m in Sources */,
+				254F912C1BDB7A9E00F6290C /* MealModel.m in Sources */,
+				254024981BD5410400961457 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254024A81BD5410400961457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254024B11BD5410400961457 /* CYParabolaViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254024B31BD5410400961457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254024BC1BD5410400961457 /* CYParabolaViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		254024AE1BD5410400961457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 254024921BD5410400961457 /* CYParabolaView */;
+			targetProxy = 254024AD1BD5410400961457 /* PBXContainerItemProxy */;
+		};
+		254024B91BD5410400961457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 254024921BD5410400961457 /* CYParabolaView */;
+			targetProxy = 254024B81BD5410400961457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2540249F1BD5410400961457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254024A01BD5410400961457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		254024A41BD5410400961457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254024A51BD5410400961457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		254024BE1BD5410400961457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		254024BF1BD5410400961457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		254024C11BD5410400961457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYParabolaView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxk.CYParabolaView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		254024C21BD5410400961457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYParabolaView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxk.CYParabolaView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		254024C41BD5410400961457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYParabolaViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxk.CYParabolaViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYParabolaView.app/CYParabolaView";
+			};
+			name = Debug;
+		};
+		254024C51BD5410400961457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYParabolaViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxk.CYParabolaViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYParabolaView.app/CYParabolaView";
+			};
+			name = Release;
+		};
+		254024C71BD5410400961457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYParabolaViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxk.CYParabolaViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYParabolaView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		254024C81BD5410400961457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYParabolaViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxk.CYParabolaViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYParabolaView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2540248E1BD5410400961457 /* Build configuration list for PBXProject "CYParabolaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254024BE1BD5410400961457 /* Debug */,
+				254024BF1BD5410400961457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254024C01BD5410400961457 /* Build configuration list for PBXNativeTarget "CYParabolaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254024C11BD5410400961457 /* Debug */,
+				254024C21BD5410400961457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254024C31BD5410400961457 /* Build configuration list for PBXNativeTarget "CYParabolaViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254024C41BD5410400961457 /* Debug */,
+				254024C51BD5410400961457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254024C61BD5410400961457 /* Build configuration list for PBXNativeTarget "CYParabolaViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254024C71BD5410400961457 /* Debug */,
+				254024C81BD5410400961457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2540248B1BD5410400961457 /* Project object */;
+}

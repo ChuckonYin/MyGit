@@ -1,0 +1,12 @@
+PODS:
+  - iOS-AlipaySDK (3.0.2):
+    - iOS-AlipaySDK/Core (= 3.0.2)
+  - iOS-AlipaySDK/Core (3.0.2)
+
+DEPENDENCIES:
+  - iOS-AlipaySDK (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  iOS-AlipaySDK: 97d1c1fe06083e5bf2d9b56981cf469eeb508b78
+
+COCOAPODS: 0.39.0

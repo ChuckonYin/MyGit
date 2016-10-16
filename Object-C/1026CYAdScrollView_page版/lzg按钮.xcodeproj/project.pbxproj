@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252218BA1BDE21B0002310EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 252218B91BDE21B0002310EA /* main.m */; };
+		252218BD1BDE21B0002310EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 252218BC1BDE21B0002310EA /* AppDelegate.m */; };
+		252218C01BDE21B0002310EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252218BF1BDE21B0002310EA /* ViewController.m */; };
+		252218C31BDE21B0002310EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252218C11BDE21B0002310EA /* Main.storyboard */; };
+		252218C51BDE21B0002310EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252218C41BDE21B0002310EA /* Assets.xcassets */; };
+		252218C81BDE21B0002310EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252218C61BDE21B0002310EA /* LaunchScreen.storyboard */; };
+		252218D31BDE21B0002310EA /* lzg__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 252218D21BDE21B0002310EA /* lzg__Tests.m */; };
+		252218DE1BDE21B0002310EA /* lzg__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 252218DD1BDE21B0002310EA /* lzg__UITests.m */; };
+		252F108C1BE89FEF00997340 /* 444.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 252F108B1BE89FEF00997340 /* 444.jpg */; };
+		25913E341BDF64570020398D /* CYAdScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25913E311BDF64570020398D /* CYAdScrollView.m */; };
+		25913E391BDF8D540020398D /* 999.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25913E381BDF8D540020398D /* 999.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		252218CF1BDE21B0002310EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 252218AD1BDE21B0002310EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 252218B41BDE21B0002310EA;
+			remoteInfo = "lzg按钮";
+		};
+		252218DA1BDE21B0002310EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 252218AD1BDE21B0002310EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 252218B41BDE21B0002310EA;
+			remoteInfo = "lzg按钮";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		252218B51BDE21B0002310EA /* lzg按钮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lzg按钮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252218B91BDE21B0002310EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		252218BB1BDE21B0002310EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		252218BC1BDE21B0002310EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		252218BE1BDE21B0002310EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		252218BF1BDE21B0002310EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		252218C21BDE21B0002310EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		252218C41BDE21B0002310EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		252218C71BDE21B0002310EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		252218C91BDE21B0002310EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252218CE1BDE21B0002310EA /* lzg按钮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lzg按钮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252218D21BDE21B0002310EA /* lzg__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lzg__Tests.m; sourceTree = "<group>"; };
+		252218D41BDE21B0002310EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252218D91BDE21B0002310EA /* lzg按钮UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lzg按钮UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252218DD1BDE21B0002310EA /* lzg__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lzg__UITests.m; sourceTree = "<group>"; };
+		252218DF1BDE21B0002310EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252F108B1BE89FEF00997340 /* 444.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 444.jpg; sourceTree = "<group>"; };
+		25913E301BDF64570020398D /* CYAdScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYAdScrollView.h; sourceTree = "<group>"; };
+		25913E311BDF64570020398D /* CYAdScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYAdScrollView.m; sourceTree = "<group>"; };
+		25913E381BDF8D540020398D /* 999.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 999.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252218B21BDE21B0002310EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252218CB1BDE21B0002310EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252218D61BDE21B0002310EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252218AC1BDE21B0002310EA = {
+			isa = PBXGroup;
+			children = (
+				252218B71BDE21B0002310EA /* lzg按钮 */,
+				252218D11BDE21B0002310EA /* lzg按钮Tests */,
+				252218DC1BDE21B0002310EA /* lzg按钮UITests */,
+				252218B61BDE21B0002310EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		252218B61BDE21B0002310EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				252218B51BDE21B0002310EA /* lzg按钮.app */,
+				252218CE1BDE21B0002310EA /* lzg按钮Tests.xctest */,
+				252218D91BDE21B0002310EA /* lzg按钮UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		252218B71BDE21B0002310EA /* lzg按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				252F108B1BE89FEF00997340 /* 444.jpg */,
+				25913E381BDF8D540020398D /* 999.jpg */,
+				252218BB1BDE21B0002310EA /* AppDelegate.h */,
+				252218BC1BDE21B0002310EA /* AppDelegate.m */,
+				252218BE1BDE21B0002310EA /* ViewController.h */,
+				252218BF1BDE21B0002310EA /* ViewController.m */,
+				25913E2F1BDF64570020398D /* CYAdScrollView */,
+				252218C11BDE21B0002310EA /* Main.storyboard */,
+				252218C41BDE21B0002310EA /* Assets.xcassets */,
+				252218C61BDE21B0002310EA /* LaunchScreen.storyboard */,
+				252218C91BDE21B0002310EA /* Info.plist */,
+				252218B81BDE21B0002310EA /* Supporting Files */,
+			);
+			path = "lzg按钮";
+			sourceTree = "<group>";
+		};
+		252218B81BDE21B0002310EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				252218B91BDE21B0002310EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		252218D11BDE21B0002310EA /* lzg按钮Tests */ = {
+			isa = PBXGroup;
+			children = (
+				252218D21BDE21B0002310EA /* lzg__Tests.m */,
+				252218D41BDE21B0002310EA /* Info.plist */,
+			);
+			path = "lzg按钮Tests";
+			sourceTree = "<group>";
+		};
+		252218DC1BDE21B0002310EA /* lzg按钮UITests */ = {
+			isa = PBXGroup;
+			children = (
+				252218DD1BDE21B0002310EA /* lzg__UITests.m */,
+				252218DF1BDE21B0002310EA /* Info.plist */,
+			);
+			path = "lzg按钮UITests";
+			sourceTree = "<group>";
+		};
+		25913E2F1BDF64570020398D /* CYAdScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				25913E301BDF64570020398D /* CYAdScrollView.h */,
+				25913E311BDF64570020398D /* CYAdScrollView.m */,
+			);
+			path = CYAdScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		252218B41BDE21B0002310EA /* lzg按钮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252218E21BDE21B0002310EA /* Build configuration list for PBXNativeTarget "lzg按钮" */;
+			buildPhases = (
+				252218B11BDE21B0002310EA /* Sources */,
+				252218B21BDE21B0002310EA /* Frameworks */,
+				252218B31BDE21B0002310EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lzg按钮";
+			productName = "lzg按钮";
+			productReference = 252218B51BDE21B0002310EA /* lzg按钮.app */;
+			productType = "com.apple.product-type.application";
+		};
+		252218CD1BDE21B0002310EA /* lzg按钮Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252218E51BDE21B0002310EA /* Build configuration list for PBXNativeTarget "lzg按钮Tests" */;
+			buildPhases = (
+				252218CA1BDE21B0002310EA /* Sources */,
+				252218CB1BDE21B0002310EA /* Frameworks */,
+				252218CC1BDE21B0002310EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				252218D01BDE21B0002310EA /* PBXTargetDependency */,
+			);
+			name = "lzg按钮Tests";
+			productName = "lzg按钮Tests";
+			productReference = 252218CE1BDE21B0002310EA /* lzg按钮Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		252218D81BDE21B0002310EA /* lzg按钮UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252218E81BDE21B0002310EA /* Build configuration list for PBXNativeTarget "lzg按钮UITests" */;
+			buildPhases = (
+				252218D51BDE21B0002310EA /* Sources */,
+				252218D61BDE21B0002310EA /* Frameworks */,
+				252218D71BDE21B0002310EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				252218DB1BDE21B0002310EA /* PBXTargetDependency */,
+			);
+			name = "lzg按钮UITests";
+			productName = "lzg按钮UITests";
+			productReference = 252218D91BDE21B0002310EA /* lzg按钮UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		252218AD1BDE21B0002310EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = PingAn;
+				TargetAttributes = {
+					252218B41BDE21B0002310EA = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = FS49R6JUN8;
+					};
+					252218CD1BDE21B0002310EA = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = FS49R6JUN8;
+						TestTargetID = 252218B41BDE21B0002310EA;
+					};
+					252218D81BDE21B0002310EA = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = FS49R6JUN8;
+						TestTargetID = 252218B41BDE21B0002310EA;
+					};
+				};
+			};
+			buildConfigurationList = 252218B01BDE21B0002310EA /* Build configuration list for PBXProject "lzg按钮" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 252218AC1BDE21B0002310EA;
+			productRefGroup = 252218B61BDE21B0002310EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				252218B41BDE21B0002310EA /* lzg按钮 */,
+				252218CD1BDE21B0002310EA /* lzg按钮Tests */,
+				252218D81BDE21B0002310EA /* lzg按钮UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		252218B31BDE21B0002310EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252218C81BDE21B0002310EA /* LaunchScreen.storyboard in Resources */,
+				25913E391BDF8D540020398D /* 999.jpg in Resources */,
+				252218C51BDE21B0002310EA /* Assets.xcassets in Resources */,
+				252218C31BDE21B0002310EA /* Main.storyboard in Resources */,
+				252F108C1BE89FEF00997340 /* 444.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252218CC1BDE21B0002310EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252218D71BDE21B0002310EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		252218B11BDE21B0002310EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25913E341BDF64570020398D /* CYAdScrollView.m in Sources */,
+				252218C01BDE21B0002310EA /* ViewController.m in Sources */,
+				252218BD1BDE21B0002310EA /* AppDelegate.m in Sources */,
+				252218BA1BDE21B0002310EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252218CA1BDE21B0002310EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252218D31BDE21B0002310EA /* lzg__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252218D51BDE21B0002310EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252218DE1BDE21B0002310EA /* lzg__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		252218D01BDE21B0002310EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 252218B41BDE21B0002310EA /* lzg按钮 */;
+			targetProxy = 252218CF1BDE21B0002310EA /* PBXContainerItemProxy */;
+		};
+		252218DB1BDE21B0002310EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 252218B41BDE21B0002310EA /* lzg按钮 */;
+			targetProxy = 252218DA1BDE21B0002310EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		252218C11BDE21B0002310EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252218C21BDE21B0002310EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		252218C61BDE21B0002310EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252218C71BDE21B0002310EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		252218E01BDE21B0002310EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e2917463-82f5-4dbb-a7a3-49e4593e746a";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		252218E11BDE21B0002310EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e2917463-82f5-4dbb-a7a3-49e4593e746a";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		252218E31BDE21B0002310EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "lzg按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.lzg--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		252218E41BDE21B0002310EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "lzg按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.lzg--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		252218E61BDE21B0002310EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "lzg按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.lzg--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lzg按钮.app/lzg按钮";
+			};
+			name = Debug;
+		};
+		252218E71BDE21B0002310EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "lzg按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.lzg--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lzg按钮.app/lzg按钮";
+			};
+			name = Release;
+		};
+		252218E91BDE21B0002310EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "lzg按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.lzg--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "lzg按钮";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		252218EA1BDE21B0002310EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "lzg按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.lzg--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "lzg按钮";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252218B01BDE21B0002310EA /* Build configuration list for PBXProject "lzg按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252218E01BDE21B0002310EA /* Debug */,
+				252218E11BDE21B0002310EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252218E21BDE21B0002310EA /* Build configuration list for PBXNativeTarget "lzg按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252218E31BDE21B0002310EA /* Debug */,
+				252218E41BDE21B0002310EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252218E51BDE21B0002310EA /* Build configuration list for PBXNativeTarget "lzg按钮Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252218E61BDE21B0002310EA /* Debug */,
+				252218E71BDE21B0002310EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252218E81BDE21B0002310EA /* Build configuration list for PBXNativeTarget "lzg按钮UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252218E91BDE21B0002310EA /* Debug */,
+				252218EA1BDE21B0002310EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 252218AD1BDE21B0002310EA /* Project object */;
+}

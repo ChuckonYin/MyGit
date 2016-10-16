@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		253483F61CA3DA2D002CFB01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 253483F51CA3DA2D002CFB01 /* main.m */; };
+		253483F91CA3DA2D002CFB01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 253483F81CA3DA2D002CFB01 /* AppDelegate.m */; };
+		253483FC1CA3DA2D002CFB01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253483FB1CA3DA2D002CFB01 /* ViewController.m */; };
+		253483FF1CA3DA2D002CFB01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253483FD1CA3DA2D002CFB01 /* Main.storyboard */; };
+		253484011CA3DA2D002CFB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 253484001CA3DA2D002CFB01 /* Assets.xcassets */; };
+		253484041CA3DA2D002CFB01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253484021CA3DA2D002CFB01 /* LaunchScreen.storyboard */; };
+		2534840F1CA3DA2D002CFB01 /* _6_0324______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2534840E1CA3DA2D002CFB01 /* _6_0324______Tests.m */; };
+		2534841A1CA3DA2E002CFB01 /* _6_0324______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 253484191CA3DA2E002CFB01 /* _6_0324______UITests.m */; };
+		253484291CA3DA5B002CFB01 /* YZTCheckResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 253484281CA3DA5B002CFB01 /* YZTCheckResultView.m */; };
+		2534842B1CA3F29A002CFB01 /* gantanhao.png in Resources */ = {isa = PBXBuildFile; fileRef = 2534842A1CA3F29A002CFB01 /* gantanhao.png */; };
+		2534842D1CA3FE19002CFB01 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2534842C1CA3FE19002CFB01 /* 2.png */; };
+		2534842F1CA3FE21002CFB01 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2534842E1CA3FE21002CFB01 /* 1.png */; };
+		253484311CA3FE28002CFB01 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 253484301CA3FE28002CFB01 /* 3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2534840B1CA3DA2D002CFB01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 253483E91CA3DA2D002CFB01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 253483F01CA3DA2D002CFB01;
+			remoteInfo = "16_0324密码状态图表";
+		};
+		253484161CA3DA2E002CFB01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 253483E91CA3DA2D002CFB01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 253483F01CA3DA2D002CFB01;
+			remoteInfo = "16_0324密码状态图表";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		253483F11CA3DA2D002CFB01 /* 16_0324密码状态图表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "16_0324密码状态图表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		253483F51CA3DA2D002CFB01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		253483F71CA3DA2D002CFB01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		253483F81CA3DA2D002CFB01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		253483FA1CA3DA2D002CFB01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		253483FB1CA3DA2D002CFB01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		253483FE1CA3DA2D002CFB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		253484001CA3DA2D002CFB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		253484031CA3DA2D002CFB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		253484051CA3DA2D002CFB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2534840A1CA3DA2D002CFB01 /* 16_0324密码状态图表Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "16_0324密码状态图表Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2534840E1CA3DA2D002CFB01 /* _6_0324______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_0324______Tests.m"; sourceTree = "<group>"; };
+		253484101CA3DA2D002CFB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253484151CA3DA2E002CFB01 /* 16_0324密码状态图表UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "16_0324密码状态图表UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		253484191CA3DA2E002CFB01 /* _6_0324______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_0324______UITests.m"; sourceTree = "<group>"; };
+		2534841B1CA3DA2E002CFB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253484271CA3DA5B002CFB01 /* YZTCheckResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTCheckResultView.h; sourceTree = "<group>"; };
+		253484281CA3DA5B002CFB01 /* YZTCheckResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTCheckResultView.m; sourceTree = "<group>"; };
+		2534842A1CA3F29A002CFB01 /* gantanhao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gantanhao.png; sourceTree = "<group>"; };
+		2534842C1CA3FE19002CFB01 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2534842E1CA3FE21002CFB01 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		253484301CA3FE28002CFB01 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		253483EE1CA3DA2D002CFB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253484071CA3DA2D002CFB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253484121CA3DA2E002CFB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		253483E81CA3DA2D002CFB01 = {
+			isa = PBXGroup;
+			children = (
+				253483F31CA3DA2D002CFB01 /* 16_0324密码状态图表 */,
+				2534840D1CA3DA2D002CFB01 /* 16_0324密码状态图表Tests */,
+				253484181CA3DA2E002CFB01 /* 16_0324密码状态图表UITests */,
+				253483F21CA3DA2D002CFB01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		253483F21CA3DA2D002CFB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				253483F11CA3DA2D002CFB01 /* 16_0324密码状态图表.app */,
+				2534840A1CA3DA2D002CFB01 /* 16_0324密码状态图表Tests.xctest */,
+				253484151CA3DA2E002CFB01 /* 16_0324密码状态图表UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		253483F31CA3DA2D002CFB01 /* 16_0324密码状态图表 */ = {
+			isa = PBXGroup;
+			children = (
+				253483F71CA3DA2D002CFB01 /* AppDelegate.h */,
+				253483F81CA3DA2D002CFB01 /* AppDelegate.m */,
+				2534842E1CA3FE21002CFB01 /* 1.png */,
+				2534842A1CA3F29A002CFB01 /* gantanhao.png */,
+				2534842C1CA3FE19002CFB01 /* 2.png */,
+				253484301CA3FE28002CFB01 /* 3.png */,
+				253483FA1CA3DA2D002CFB01 /* ViewController.h */,
+				253483FB1CA3DA2D002CFB01 /* ViewController.m */,
+				253484271CA3DA5B002CFB01 /* YZTCheckResultView.h */,
+				253484281CA3DA5B002CFB01 /* YZTCheckResultView.m */,
+				253483FD1CA3DA2D002CFB01 /* Main.storyboard */,
+				253484001CA3DA2D002CFB01 /* Assets.xcassets */,
+				253484021CA3DA2D002CFB01 /* LaunchScreen.storyboard */,
+				253484051CA3DA2D002CFB01 /* Info.plist */,
+				253483F41CA3DA2D002CFB01 /* Supporting Files */,
+			);
+			path = "16_0324密码状态图表";
+			sourceTree = "<group>";
+		};
+		253483F41CA3DA2D002CFB01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				253483F51CA3DA2D002CFB01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2534840D1CA3DA2D002CFB01 /* 16_0324密码状态图表Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2534840E1CA3DA2D002CFB01 /* _6_0324______Tests.m */,
+				253484101CA3DA2D002CFB01 /* Info.plist */,
+			);
+			path = "16_0324密码状态图表Tests";
+			sourceTree = "<group>";
+		};
+		253484181CA3DA2E002CFB01 /* 16_0324密码状态图表UITests */ = {
+			isa = PBXGroup;
+			children = (
+				253484191CA3DA2E002CFB01 /* _6_0324______UITests.m */,
+				2534841B1CA3DA2E002CFB01 /* Info.plist */,
+			);
+			path = "16_0324密码状态图表UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		253483F01CA3DA2D002CFB01 /* 16_0324密码状态图表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2534841E1CA3DA2E002CFB01 /* Build configuration list for PBXNativeTarget "16_0324密码状态图表" */;
+			buildPhases = (
+				253483ED1CA3DA2D002CFB01 /* Sources */,
+				253483EE1CA3DA2D002CFB01 /* Frameworks */,
+				253483EF1CA3DA2D002CFB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "16_0324密码状态图表";
+			productName = "16_0324密码状态图表";
+			productReference = 253483F11CA3DA2D002CFB01 /* 16_0324密码状态图表.app */;
+			productType = "com.apple.product-type.application";
+		};
+		253484091CA3DA2D002CFB01 /* 16_0324密码状态图表Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253484211CA3DA2E002CFB01 /* Build configuration list for PBXNativeTarget "16_0324密码状态图表Tests" */;
+			buildPhases = (
+				253484061CA3DA2D002CFB01 /* Sources */,
+				253484071CA3DA2D002CFB01 /* Frameworks */,
+				253484081CA3DA2D002CFB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2534840C1CA3DA2D002CFB01 /* PBXTargetDependency */,
+			);
+			name = "16_0324密码状态图表Tests";
+			productName = "16_0324密码状态图表Tests";
+			productReference = 2534840A1CA3DA2D002CFB01 /* 16_0324密码状态图表Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		253484141CA3DA2E002CFB01 /* 16_0324密码状态图表UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253484241CA3DA2E002CFB01 /* Build configuration list for PBXNativeTarget "16_0324密码状态图表UITests" */;
+			buildPhases = (
+				253484111CA3DA2E002CFB01 /* Sources */,
+				253484121CA3DA2E002CFB01 /* Frameworks */,
+				253484131CA3DA2E002CFB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				253484171CA3DA2E002CFB01 /* PBXTargetDependency */,
+			);
+			name = "16_0324密码状态图表UITests";
+			productName = "16_0324密码状态图表UITests";
+			productReference = 253484151CA3DA2E002CFB01 /* 16_0324密码状态图表UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		253483E91CA3DA2D002CFB01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PingAn;
+				TargetAttributes = {
+					253483F01CA3DA2D002CFB01 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = FS49R6JUN8;
+					};
+					253484091CA3DA2D002CFB01 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = FS49R6JUN8;
+						TestTargetID = 253483F01CA3DA2D002CFB01;
+					};
+					253484141CA3DA2E002CFB01 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = FS49R6JUN8;
+						TestTargetID = 253483F01CA3DA2D002CFB01;
+					};
+				};
+			};
+			buildConfigurationList = 253483EC1CA3DA2D002CFB01 /* Build configuration list for PBXProject "16_0324密码状态图表" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 253483E81CA3DA2D002CFB01;
+			productRefGroup = 253483F21CA3DA2D002CFB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				253483F01CA3DA2D002CFB01 /* 16_0324密码状态图表 */,
+				253484091CA3DA2D002CFB01 /* 16_0324密码状态图表Tests */,
+				253484141CA3DA2E002CFB01 /* 16_0324密码状态图表UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		253483EF1CA3DA2D002CFB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2534842D1CA3FE19002CFB01 /* 2.png in Resources */,
+				2534842F1CA3FE21002CFB01 /* 1.png in Resources */,
+				253484041CA3DA2D002CFB01 /* LaunchScreen.storyboard in Resources */,
+				253484311CA3FE28002CFB01 /* 3.png in Resources */,
+				253484011CA3DA2D002CFB01 /* Assets.xcassets in Resources */,
+				2534842B1CA3F29A002CFB01 /* gantanhao.png in Resources */,
+				253483FF1CA3DA2D002CFB01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253484081CA3DA2D002CFB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253484131CA3DA2E002CFB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		253483ED1CA3DA2D002CFB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253483FC1CA3DA2D002CFB01 /* ViewController.m in Sources */,
+				253483F91CA3DA2D002CFB01 /* AppDelegate.m in Sources */,
+				253484291CA3DA5B002CFB01 /* YZTCheckResultView.m in Sources */,
+				253483F61CA3DA2D002CFB01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253484061CA3DA2D002CFB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2534840F1CA3DA2D002CFB01 /* _6_0324______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253484111CA3DA2E002CFB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2534841A1CA3DA2E002CFB01 /* _6_0324______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2534840C1CA3DA2D002CFB01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 253483F01CA3DA2D002CFB01 /* 16_0324密码状态图表 */;
+			targetProxy = 2534840B1CA3DA2D002CFB01 /* PBXContainerItemProxy */;
+		};
+		253484171CA3DA2E002CFB01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 253483F01CA3DA2D002CFB01 /* 16_0324密码状态图表 */;
+			targetProxy = 253484161CA3DA2E002CFB01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		253483FD1CA3DA2D002CFB01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				253483FE1CA3DA2D002CFB01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		253484021CA3DA2D002CFB01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				253484031CA3DA2D002CFB01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2534841C1CA3DA2E002CFB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2534841D1CA3DA2E002CFB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2534841F1CA3DA2E002CFB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "16_0324密码状态图表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-6-0324------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		253484201CA3DA2E002CFB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "16_0324密码状态图表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-6-0324------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		253484221CA3DA2E002CFB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "16_0324密码状态图表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-6-0324------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/16_0324密码状态图表.app/16_0324密码状态图表";
+			};
+			name = Debug;
+		};
+		253484231CA3DA2E002CFB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "16_0324密码状态图表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-6-0324------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/16_0324密码状态图表.app/16_0324密码状态图表";
+			};
+			name = Release;
+		};
+		253484251CA3DA2E002CFB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "16_0324密码状态图表UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-6-0324------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "16_0324密码状态图表";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		253484261CA3DA2E002CFB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "16_0324密码状态图表UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-6-0324------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "16_0324密码状态图表";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		253483EC1CA3DA2D002CFB01 /* Build configuration list for PBXProject "16_0324密码状态图表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2534841C1CA3DA2E002CFB01 /* Debug */,
+				2534841D1CA3DA2E002CFB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2534841E1CA3DA2E002CFB01 /* Build configuration list for PBXNativeTarget "16_0324密码状态图表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2534841F1CA3DA2E002CFB01 /* Debug */,
+				253484201CA3DA2E002CFB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		253484211CA3DA2E002CFB01 /* Build configuration list for PBXNativeTarget "16_0324密码状态图表Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253484221CA3DA2E002CFB01 /* Debug */,
+				253484231CA3DA2E002CFB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		253484241CA3DA2E002CFB01 /* Build configuration list for PBXNativeTarget "16_0324密码状态图表UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253484251CA3DA2E002CFB01 /* Debug */,
+				253484261CA3DA2E002CFB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 253483E91CA3DA2D002CFB01 /* Project object */;
+}

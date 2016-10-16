@@ -1,0 +1,5 @@
+
+
+pod 'Masonry', '~> 0.6.2'
+
+pod 'Reveal', '~> 1.2.0'

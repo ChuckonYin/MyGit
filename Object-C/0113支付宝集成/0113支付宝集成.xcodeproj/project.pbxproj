@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25279E931C45DEA200E6E521 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25279E921C45DEA200E6E521 /* main.m */; };
+		25279E961C45DEA200E6E521 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25279E951C45DEA200E6E521 /* AppDelegate.m */; };
+		25279E991C45DEA200E6E521 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25279E981C45DEA200E6E521 /* ViewController.m */; };
+		25279E9C1C45DEA200E6E521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25279E9A1C45DEA200E6E521 /* Main.storyboard */; };
+		25279E9E1C45DEA200E6E521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25279E9D1C45DEA200E6E521 /* Assets.xcassets */; };
+		25279EA11C45DEA200E6E521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25279E9F1C45DEA200E6E521 /* LaunchScreen.storyboard */; };
+		25279EAC1C45DEA200E6E521 /* _113_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25279EAB1C45DEA200E6E521 /* _113_____Tests.m */; };
+		25279EB71C45DEA200E6E521 /* _113_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25279EB61C45DEA200E6E521 /* _113_____UITests.m */; };
+		AB16799100851391E03E8200 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B93A2CCB0B871BDD6D04DE9B /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25279EA81C45DEA200E6E521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25279E861C45DEA200E6E521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25279E8D1C45DEA200E6E521;
+			remoteInfo = "0113支付宝集成";
+		};
+		25279EB31C45DEA200E6E521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25279E861C45DEA200E6E521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25279E8D1C45DEA200E6E521;
+			remoteInfo = "0113支付宝集成";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25279E8E1C45DEA200E6E521 /* 0113支付宝集成.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0113支付宝集成.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25279E921C45DEA200E6E521 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25279E941C45DEA200E6E521 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25279E951C45DEA200E6E521 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25279E971C45DEA200E6E521 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25279E981C45DEA200E6E521 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25279E9B1C45DEA200E6E521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25279E9D1C45DEA200E6E521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25279EA01C45DEA200E6E521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25279EA21C45DEA200E6E521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25279EA71C45DEA200E6E521 /* 0113支付宝集成Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0113支付宝集成Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25279EAB1C45DEA200E6E521 /* _113_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_113_____Tests.m"; sourceTree = "<group>"; };
+		25279EAD1C45DEA200E6E521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25279EB21C45DEA200E6E521 /* 0113支付宝集成UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0113支付宝集成UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25279EB61C45DEA200E6E521 /* _113_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_113_____UITests.m"; sourceTree = "<group>"; };
+		25279EB81C45DEA200E6E521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B58285098BD51E1CA83BDD7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B37D1A7209C38E1938B58509 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B93A2CCB0B871BDD6D04DE9B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25279E8B1C45DEA200E6E521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB16799100851391E03E8200 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25279EA41C45DEA200E6E521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25279EAF1C45DEA200E6E521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0404DE12A6195F8372C297AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B93A2CCB0B871BDD6D04DE9B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25279E851C45DEA200E6E521 = {
+			isa = PBXGroup;
+			children = (
+				25279E901C45DEA200E6E521 /* 0113支付宝集成 */,
+				25279EAA1C45DEA200E6E521 /* 0113支付宝集成Tests */,
+				25279EB51C45DEA200E6E521 /* 0113支付宝集成UITests */,
+				25279E8F1C45DEA200E6E521 /* Products */,
+				5ACDBBAFC1C04C2881FE5596 /* Pods */,
+				0404DE12A6195F8372C297AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25279E8F1C45DEA200E6E521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25279E8E1C45DEA200E6E521 /* 0113支付宝集成.app */,
+				25279EA71C45DEA200E6E521 /* 0113支付宝集成Tests.xctest */,
+				25279EB21C45DEA200E6E521 /* 0113支付宝集成UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25279E901C45DEA200E6E521 /* 0113支付宝集成 */ = {
+			isa = PBXGroup;
+			children = (
+				25279E941C45DEA200E6E521 /* AppDelegate.h */,
+				25279E951C45DEA200E6E521 /* AppDelegate.m */,
+				25279E971C45DEA200E6E521 /* ViewController.h */,
+				25279E981C45DEA200E6E521 /* ViewController.m */,
+				25279E9A1C45DEA200E6E521 /* Main.storyboard */,
+				25279E9D1C45DEA200E6E521 /* Assets.xcassets */,
+				25279E9F1C45DEA200E6E521 /* LaunchScreen.storyboard */,
+				25279EA21C45DEA200E6E521 /* Info.plist */,
+				25279E911C45DEA200E6E521 /* Supporting Files */,
+			);
+			path = "0113支付宝集成";
+			sourceTree = "<group>";
+		};
+		25279E911C45DEA200E6E521 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25279E921C45DEA200E6E521 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25279EAA1C45DEA200E6E521 /* 0113支付宝集成Tests */ = {
+			isa = PBXGroup;
+			children = (
+				25279EAB1C45DEA200E6E521 /* _113_____Tests.m */,
+				25279EAD1C45DEA200E6E521 /* Info.plist */,
+			);
+			path = "0113支付宝集成Tests";
+			sourceTree = "<group>";
+		};
+		25279EB51C45DEA200E6E521 /* 0113支付宝集成UITests */ = {
+			isa = PBXGroup;
+			children = (
+				25279EB61C45DEA200E6E521 /* _113_____UITests.m */,
+				25279EB81C45DEA200E6E521 /* Info.plist */,
+			);
+			path = "0113支付宝集成UITests";
+			sourceTree = "<group>";
+		};
+		5ACDBBAFC1C04C2881FE5596 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B58285098BD51E1CA83BDD7 /* Pods.debug.xcconfig */,
+				B37D1A7209C38E1938B58509 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25279E8D1C45DEA200E6E521 /* 0113支付宝集成 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25279EBB1C45DEA200E6E521 /* Build configuration list for PBXNativeTarget "0113支付宝集成" */;
+			buildPhases = (
+				C8AD009BC2E6B0A3CA9553B1 /* Check Pods Manifest.lock */,
+				25279E8A1C45DEA200E6E521 /* Sources */,
+				25279E8B1C45DEA200E6E521 /* Frameworks */,
+				25279E8C1C45DEA200E6E521 /* Resources */,
+				9FC747E3EC3A25ECC432A1C1 /* Embed Pods Frameworks */,
+				D005E6DE6F5CAB6079AEEE06 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0113支付宝集成";
+			productName = "0113支付宝集成";
+			productReference = 25279E8E1C45DEA200E6E521 /* 0113支付宝集成.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25279EA61C45DEA200E6E521 /* 0113支付宝集成Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25279EBE1C45DEA200E6E521 /* Build configuration list for PBXNativeTarget "0113支付宝集成Tests" */;
+			buildPhases = (
+				25279EA31C45DEA200E6E521 /* Sources */,
+				25279EA41C45DEA200E6E521 /* Frameworks */,
+				25279EA51C45DEA200E6E521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25279EA91C45DEA200E6E521 /* PBXTargetDependency */,
+			);
+			name = "0113支付宝集成Tests";
+			productName = "0113支付宝集成Tests";
+			productReference = 25279EA71C45DEA200E6E521 /* 0113支付宝集成Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25279EB11C45DEA200E6E521 /* 0113支付宝集成UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25279EC11C45DEA200E6E521 /* Build configuration list for PBXNativeTarget "0113支付宝集成UITests" */;
+			buildPhases = (
+				25279EAE1C45DEA200E6E521 /* Sources */,
+				25279EAF1C45DEA200E6E521 /* Frameworks */,
+				25279EB01C45DEA200E6E521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25279EB41C45DEA200E6E521 /* PBXTargetDependency */,
+			);
+			name = "0113支付宝集成UITests";
+			productName = "0113支付宝集成UITests";
+			productReference = 25279EB21C45DEA200E6E521 /* 0113支付宝集成UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25279E861C45DEA200E6E521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PingAn;
+				TargetAttributes = {
+					25279E8D1C45DEA200E6E521 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = FS49R6JUN8;
+					};
+					25279EA61C45DEA200E6E521 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = FS49R6JUN8;
+						TestTargetID = 25279E8D1C45DEA200E6E521;
+					};
+					25279EB11C45DEA200E6E521 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = FS49R6JUN8;
+						TestTargetID = 25279E8D1C45DEA200E6E521;
+					};
+				};
+			};
+			buildConfigurationList = 25279E891C45DEA200E6E521 /* Build configuration list for PBXProject "0113支付宝集成" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25279E851C45DEA200E6E521;
+			productRefGroup = 25279E8F1C45DEA200E6E521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25279E8D1C45DEA200E6E521 /* 0113支付宝集成 */,
+				25279EA61C45DEA200E6E521 /* 0113支付宝集成Tests */,
+				25279EB11C45DEA200E6E521 /* 0113支付宝集成UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25279E8C1C45DEA200E6E521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25279EA11C45DEA200E6E521 /* LaunchScreen.storyboard in Resources */,
+				25279E9E1C45DEA200E6E521 /* Assets.xcassets in Resources */,
+				25279E9C1C45DEA200E6E521 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25279EA51C45DEA200E6E521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25279EB01C45DEA200E6E521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FC747E3EC3A25ECC432A1C1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AD009BC2E6B0A3CA9553B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D005E6DE6F5CAB6079AEEE06 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25279E8A1C45DEA200E6E521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25279E991C45DEA200E6E521 /* ViewController.m in Sources */,
+				25279E961C45DEA200E6E521 /* AppDelegate.m in Sources */,
+				25279E931C45DEA200E6E521 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25279EA31C45DEA200E6E521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25279EAC1C45DEA200E6E521 /* _113_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25279EAE1C45DEA200E6E521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25279EB71C45DEA200E6E521 /* _113_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25279EA91C45DEA200E6E521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25279E8D1C45DEA200E6E521 /* 0113支付宝集成 */;
+			targetProxy = 25279EA81C45DEA200E6E521 /* PBXContainerItemProxy */;
+		};
+		25279EB41C45DEA200E6E521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25279E8D1C45DEA200E6E521 /* 0113支付宝集成 */;
+			targetProxy = 25279EB31C45DEA200E6E521 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25279E9A1C45DEA200E6E521 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25279E9B1C45DEA200E6E521 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25279E9F1C45DEA200E6E521 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25279EA01C45DEA200E6E521 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25279EB91C45DEA200E6E521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25279EBA1C45DEA200E6E521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25279EBC1C45DEA200E6E521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B58285098BD51E1CA83BDD7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0113支付宝集成/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-113-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25279EBD1C45DEA200E6E521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37D1A7209C38E1938B58509 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0113支付宝集成/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-113-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25279EBF1C45DEA200E6E521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0113支付宝集成Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-113-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0113支付宝集成.app/0113支付宝集成";
+			};
+			name = Debug;
+		};
+		25279EC01C45DEA200E6E521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "0113支付宝集成Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-113-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0113支付宝集成.app/0113支付宝集成";
+			};
+			name = Release;
+		};
+		25279EC21C45DEA200E6E521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0113支付宝集成UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-113-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0113支付宝集成";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		25279EC31C45DEA200E6E521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "0113支付宝集成UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-113-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "0113支付宝集成";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25279E891C45DEA200E6E521 /* Build configuration list for PBXProject "0113支付宝集成" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25279EB91C45DEA200E6E521 /* Debug */,
+				25279EBA1C45DEA200E6E521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25279EBB1C45DEA200E6E521 /* Build configuration list for PBXNativeTarget "0113支付宝集成" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25279EBC1C45DEA200E6E521 /* Debug */,
+				25279EBD1C45DEA200E6E521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25279EBE1C45DEA200E6E521 /* Build configuration list for PBXNativeTarget "0113支付宝集成Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25279EBF1C45DEA200E6E521 /* Debug */,
+				25279EC01C45DEA200E6E521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25279EC11C45DEA200E6E521 /* Build configuration list for PBXNativeTarget "0113支付宝集成UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25279EC21C45DEA200E6E521 /* Debug */,
+				25279EC31C45DEA200E6E521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25279E861C45DEA200E6E521 /* Project object */;
+}

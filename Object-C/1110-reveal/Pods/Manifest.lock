@@ -1,0 +1,13 @@
+PODS:
+  - Masonry (0.6.3)
+  - Reveal (1.2.0)
+
+DEPENDENCIES:
+  - Masonry (~> 0.6.2)
+  - Reveal (~> 1.2.0)
+
+SPEC CHECKSUMS:
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  Reveal: 176ad2895fdb53c4ffe9279b40850eed36a7781b
+
+COCOAPODS: 0.39.0

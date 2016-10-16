@@ -1,0 +1,7 @@
+pod 'ReactiveCocoa', '~> 2.5’
+
+pod 'Masonry', '~> 0.6.2'
+
+pod 'Objection', '~> 1.6.1'
+
+pod 'SECoreTextView', '~> 0.8.5'

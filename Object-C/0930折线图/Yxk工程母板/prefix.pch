@@ -1,0 +1,26 @@
+//
+//  prefix.pch
+//  Yxk工程母板
+//
+//  Created by ChuckonYin on 15/9/30.
+//  Copyright © 2015年 PingAn. All rights reserved.
+//
+
+#ifndef prefix_h
+#define prefix_h
+
+#import <Masonry.h>
+#import <ReactiveCocoa.h>
+#import <Objection.h>
+
+
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
+
+#define colorRed [UIColor redColor]
+#define colorWhite [UIColor whiteColor]
+#define colorBlue [UIColor blueColor]
+#define colorBrown [UIColor brownColor]
+#define colorYellow [UIColor YellowColor]
+#define colorLtGray [UIColor lightGrayColor]
+
+#endif /* prefix_h */

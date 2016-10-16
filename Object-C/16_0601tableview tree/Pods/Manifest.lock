@@ -1,0 +1,13 @@
+PODS:
+  - Masonry (0.6.4)
+  - RATreeView (2.1.0)
+
+DEPENDENCIES:
+  - Masonry (~> 0.6.2)
+  - RATreeView (~> 2.1.0)
+
+SPEC CHECKSUMS:
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  RATreeView: fc82ec26b8be18cfa0f5f99a5abbe6be68edb21f
+
+COCOAPODS: 0.39.0

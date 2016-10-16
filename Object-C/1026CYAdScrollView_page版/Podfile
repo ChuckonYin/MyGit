@@ -1,0 +1,9 @@
+platform :ios, "6.0"
+
+pod "PodName"
+
+target :TargetNameTests, :exclusive => true do
+  # pod 'Kiwi'
+
+
+end

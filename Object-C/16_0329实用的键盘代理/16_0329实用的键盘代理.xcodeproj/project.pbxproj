@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251A73F81CAA9E4900D91081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 251A73F71CAA9E4900D91081 /* main.m */; };
+		251A73FB1CAA9E4900D91081 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 251A73FA1CAA9E4900D91081 /* AppDelegate.m */; };
+		251A73FE1CAA9E4900D91081 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251A73FD1CAA9E4900D91081 /* ViewController.m */; };
+		251A74011CAA9E4900D91081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251A73FF1CAA9E4900D91081 /* Main.storyboard */; };
+		251A74031CAA9E4900D91081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251A74021CAA9E4900D91081 /* Assets.xcassets */; };
+		251A74061CAA9E4900D91081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251A74041CAA9E4900D91081 /* LaunchScreen.storyboard */; };
+		251A74111CAA9E4900D91081 /* _6_0329_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 251A74101CAA9E4900D91081 /* _6_0329_______Tests.m */; };
+		251A741C1CAA9E4900D91081 /* _6_0329_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 251A741B1CAA9E4900D91081 /* _6_0329_______UITests.m */; };
+		251A742B1CAA9E7F00D91081 /* CYKeyboardObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 251A742A1CAA9E7F00D91081 /* CYKeyboardObserver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		251A740D1CAA9E4900D91081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 251A73EB1CAA9E4900D91081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251A73F21CAA9E4900D91081;
+			remoteInfo = "16_0329实用的键盘代理";
+		};
+		251A74181CAA9E4900D91081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 251A73EB1CAA9E4900D91081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251A73F21CAA9E4900D91081;
+			remoteInfo = "16_0329实用的键盘代理";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		251A73F31CAA9E4900D91081 /* 16_0329实用的键盘代理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "16_0329实用的键盘代理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		251A73F71CAA9E4900D91081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		251A73F91CAA9E4900D91081 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		251A73FA1CAA9E4900D91081 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		251A73FC1CAA9E4900D91081 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		251A73FD1CAA9E4900D91081 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		251A74001CAA9E4900D91081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		251A74021CAA9E4900D91081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		251A74051CAA9E4900D91081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		251A74071CAA9E4900D91081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251A740C1CAA9E4900D91081 /* 16_0329实用的键盘代理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "16_0329实用的键盘代理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		251A74101CAA9E4900D91081 /* _6_0329_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_0329_______Tests.m"; sourceTree = "<group>"; };
+		251A74121CAA9E4900D91081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251A74171CAA9E4900D91081 /* 16_0329实用的键盘代理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "16_0329实用的键盘代理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		251A741B1CAA9E4900D91081 /* _6_0329_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_0329_______UITests.m"; sourceTree = "<group>"; };
+		251A741D1CAA9E4900D91081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251A74291CAA9E7F00D91081 /* CYKeyboardObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYKeyboardObserver.h; sourceTree = "<group>"; };
+		251A742A1CAA9E7F00D91081 /* CYKeyboardObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYKeyboardObserver.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		251A73F01CAA9E4900D91081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251A74091CAA9E4900D91081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251A74141CAA9E4900D91081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251A73EA1CAA9E4900D91081 = {
+			isa = PBXGroup;
+			children = (
+				251A73F51CAA9E4900D91081 /* 16_0329实用的键盘代理 */,
+				251A740F1CAA9E4900D91081 /* 16_0329实用的键盘代理Tests */,
+				251A741A1CAA9E4900D91081 /* 16_0329实用的键盘代理UITests */,
+				251A73F41CAA9E4900D91081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		251A73F41CAA9E4900D91081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				251A73F31CAA9E4900D91081 /* 16_0329实用的键盘代理.app */,
+				251A740C1CAA9E4900D91081 /* 16_0329实用的键盘代理Tests.xctest */,
+				251A74171CAA9E4900D91081 /* 16_0329实用的键盘代理UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		251A73F51CAA9E4900D91081 /* 16_0329实用的键盘代理 */ = {
+			isa = PBXGroup;
+			children = (
+				251A73F91CAA9E4900D91081 /* AppDelegate.h */,
+				251A73FA1CAA9E4900D91081 /* AppDelegate.m */,
+				251A73FC1CAA9E4900D91081 /* ViewController.h */,
+				251A73FD1CAA9E4900D91081 /* ViewController.m */,
+				251A74291CAA9E7F00D91081 /* CYKeyboardObserver.h */,
+				251A742A1CAA9E7F00D91081 /* CYKeyboardObserver.m */,
+				251A73FF1CAA9E4900D91081 /* Main.storyboard */,
+				251A74021CAA9E4900D91081 /* Assets.xcassets */,
+				251A74041CAA9E4900D91081 /* LaunchScreen.storyboard */,
+				251A74071CAA9E4900D91081 /* Info.plist */,
+				251A73F61CAA9E4900D91081 /* Supporting Files */,
+			);
+			path = "16_0329实用的键盘代理";
+			sourceTree = "<group>";
+		};
+		251A73F61CAA9E4900D91081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				251A73F71CAA9E4900D91081 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		251A740F1CAA9E4900D91081 /* 16_0329实用的键盘代理Tests */ = {
+			isa = PBXGroup;
+			children = (
+				251A74101CAA9E4900D91081 /* _6_0329_______Tests.m */,
+				251A74121CAA9E4900D91081 /* Info.plist */,
+			);
+			path = "16_0329实用的键盘代理Tests";
+			sourceTree = "<group>";
+		};
+		251A741A1CAA9E4900D91081 /* 16_0329实用的键盘代理UITests */ = {
+			isa = PBXGroup;
+			children = (
+				251A741B1CAA9E4900D91081 /* _6_0329_______UITests.m */,
+				251A741D1CAA9E4900D91081 /* Info.plist */,
+			);
+			path = "16_0329实用的键盘代理UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		251A73F21CAA9E4900D91081 /* 16_0329实用的键盘代理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251A74201CAA9E4900D91081 /* Build configuration list for PBXNativeTarget "16_0329实用的键盘代理" */;
+			buildPhases = (
+				251A73EF1CAA9E4900D91081 /* Sources */,
+				251A73F01CAA9E4900D91081 /* Frameworks */,
+				251A73F11CAA9E4900D91081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "16_0329实用的键盘代理";
+			productName = "16_0329实用的键盘代理";
+			productReference = 251A73F31CAA9E4900D91081 /* 16_0329实用的键盘代理.app */;
+			productType = "com.apple.product-type.application";
+		};
+		251A740B1CAA9E4900D91081 /* 16_0329实用的键盘代理Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251A74231CAA9E4900D91081 /* Build configuration list for PBXNativeTarget "16_0329实用的键盘代理Tests" */;
+			buildPhases = (
+				251A74081CAA9E4900D91081 /* Sources */,
+				251A74091CAA9E4900D91081 /* Frameworks */,
+				251A740A1CAA9E4900D91081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				251A740E1CAA9E4900D91081 /* PBXTargetDependency */,
+			);
+			name = "16_0329实用的键盘代理Tests";
+			productName = "16_0329实用的键盘代理Tests";
+			productReference = 251A740C1CAA9E4900D91081 /* 16_0329实用的键盘代理Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		251A74161CAA9E4900D91081 /* 16_0329实用的键盘代理UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251A74261CAA9E4900D91081 /* Build configuration list for PBXNativeTarget "16_0329实用的键盘代理UITests" */;
+			buildPhases = (
+				251A74131CAA9E4900D91081 /* Sources */,
+				251A74141CAA9E4900D91081 /* Frameworks */,
+				251A74151CAA9E4900D91081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				251A74191CAA9E4900D91081 /* PBXTargetDependency */,
+			);
+			name = "16_0329实用的键盘代理UITests";
+			productName = "16_0329实用的键盘代理UITests";
+			productReference = 251A74171CAA9E4900D91081 /* 16_0329实用的键盘代理UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		251A73EB1CAA9E4900D91081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PingAn;
+				TargetAttributes = {
+					251A73F21CAA9E4900D91081 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = FS49R6JUN8;
+					};
+					251A740B1CAA9E4900D91081 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = FS49R6JUN8;
+						TestTargetID = 251A73F21CAA9E4900D91081;
+					};
+					251A74161CAA9E4900D91081 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = FS49R6JUN8;
+						TestTargetID = 251A73F21CAA9E4900D91081;
+					};
+				};
+			};
+			buildConfigurationList = 251A73EE1CAA9E4900D91081 /* Build configuration list for PBXProject "16_0329实用的键盘代理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 251A73EA1CAA9E4900D91081;
+			productRefGroup = 251A73F41CAA9E4900D91081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				251A73F21CAA9E4900D91081 /* 16_0329实用的键盘代理 */,
+				251A740B1CAA9E4900D91081 /* 16_0329实用的键盘代理Tests */,
+				251A74161CAA9E4900D91081 /* 16_0329实用的键盘代理UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		251A73F11CAA9E4900D91081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251A74061CAA9E4900D91081 /* LaunchScreen.storyboard in Resources */,
+				251A74031CAA9E4900D91081 /* Assets.xcassets in Resources */,
+				251A74011CAA9E4900D91081 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251A740A1CAA9E4900D91081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251A74151CAA9E4900D91081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		251A73EF1CAA9E4900D91081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251A742B1CAA9E7F00D91081 /* CYKeyboardObserver.m in Sources */,
+				251A73FE1CAA9E4900D91081 /* ViewController.m in Sources */,
+				251A73FB1CAA9E4900D91081 /* AppDelegate.m in Sources */,
+				251A73F81CAA9E4900D91081 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251A74081CAA9E4900D91081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251A74111CAA9E4900D91081 /* _6_0329_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251A74131CAA9E4900D91081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251A741C1CAA9E4900D91081 /* _6_0329_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		251A740E1CAA9E4900D91081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 251A73F21CAA9E4900D91081 /* 16_0329实用的键盘代理 */;
+			targetProxy = 251A740D1CAA9E4900D91081 /* PBXContainerItemProxy */;
+		};
+		251A74191CAA9E4900D91081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 251A73F21CAA9E4900D91081 /* 16_0329实用的键盘代理 */;
+			targetProxy = 251A74181CAA9E4900D91081 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		251A73FF1CAA9E4900D91081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				251A74001CAA9E4900D91081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		251A74041CAA9E4900D91081 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				251A74051CAA9E4900D91081 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		251A741E1CAA9E4900D91081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		251A741F1CAA9E4900D91081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		251A74211CAA9E4900D91081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "16_0329实用的键盘代理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-6-0329-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		251A74221CAA9E4900D91081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "16_0329实用的键盘代理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-6-0329-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		251A74241CAA9E4900D91081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "16_0329实用的键盘代理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-6-0329-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/16_0329实用的键盘代理.app/16_0329实用的键盘代理";
+			};
+			name = Debug;
+		};
+		251A74251CAA9E4900D91081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "16_0329实用的键盘代理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-6-0329-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/16_0329实用的键盘代理.app/16_0329实用的键盘代理";
+			};
+			name = Release;
+		};
+		251A74271CAA9E4900D91081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "16_0329实用的键盘代理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-6-0329-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "16_0329实用的键盘代理";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		251A74281CAA9E4900D91081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "16_0329实用的键盘代理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxk.-6-0329-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "16_0329实用的键盘代理";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		251A73EE1CAA9E4900D91081 /* Build configuration list for PBXProject "16_0329实用的键盘代理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251A741E1CAA9E4900D91081 /* Debug */,
+				251A741F1CAA9E4900D91081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		251A74201CAA9E4900D91081 /* Build configuration list for PBXNativeTarget "16_0329实用的键盘代理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251A74211CAA9E4900D91081 /* Debug */,
+				251A74221CAA9E4900D91081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		251A74231CAA9E4900D91081 /* Build configuration list for PBXNativeTarget "16_0329实用的键盘代理Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251A74241CAA9E4900D91081 /* Debug */,
+				251A74251CAA9E4900D91081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		251A74261CAA9E4900D91081 /* Build configuration list for PBXNativeTarget "16_0329实用的键盘代理UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251A74271CAA9E4900D91081 /* Debug */,
+				251A74281CAA9E4900D91081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 251A73EB1CAA9E4900D91081 /* Project object */;
+}
