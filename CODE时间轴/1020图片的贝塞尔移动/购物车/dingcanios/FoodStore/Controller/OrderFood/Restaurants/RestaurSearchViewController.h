@@ -1,0 +1,15 @@
+//
+//  RestaurSearchViewController.h
+//  FoodStore
+//
+//  Created by liuguopan on 14/12/25.
+//  Copyright (c) 2014年 viewcreator3d. All rights reserved.
+//
+
+/// 搜索餐厅
+
+#import "BaseViewController.h"
+
+@interface RestaurSearchViewController : BaseViewController
+
+@end
